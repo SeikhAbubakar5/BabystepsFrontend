@@ -64,9 +64,9 @@ const Booking = () => {
         {appointments.length > 0 ? (
           appointments.map((appointment) => (
             <div key={appointment._id} className="booking-card">
-              <h3>{appointment.doctorName}</h3>
-              <p><strong>Date:</strong> {appointment.date}</p>
-              <p><strong>Time:</strong> {appointment.time}</p>
+              <p><strong>PatientName:</strong> {appointment.patientName}</p>
+              <p><strong>AppointmentType:</strong> {appointment.appointmentType}</p>
+              <p><strong>Date & Time:</strong> {appointment.date}</p>
               <div className="button-group">
                 <button className="update-btn" onClick={() => openModal(appointment)}>
                   Update
