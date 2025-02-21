@@ -1,0 +1,43 @@
+.navContainer{
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(224, 211, 211);
+}
+.logo{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    gap: 5px;
+    color: #2f0bf7;
+    text-decoration: none;
+}
+.navItem{
+    Width:Fixed (912px);
+    Height:Hug (40px);
+    display: flex;
+    gap: 40px;
+    justify-content:space-between ;
+    align-items: center;
+    cursor: pointer;
+}
+.navItem button{
+    width: 130px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #2AA7FF;
+    border: none;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
