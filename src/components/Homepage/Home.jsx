@@ -13,7 +13,7 @@ const Home = () => {
   const [showModal, setShowModal] = useState(false);
 
   useEffect(() => {
-    axios.get(`${API_BASE_URL}/appointments/doctors`)
+    axios.get(`${API_BASE_URL}/doctors`)
       .then(response => setDoctors(response.data))
       .catch(error => console.error("Error fetching doctors:", error));
   }, []);
