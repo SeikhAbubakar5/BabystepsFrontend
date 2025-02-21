@@ -55,8 +55,10 @@ const Booking = () => {
   };
 
   return (
+    <>
+       <Navbar/>
     <div className="booking-container">
-      <Navbar/>
+     
       <h2>My Bookings</h2>
       <div className="booking-list">
         {appointments.length > 0 ? (
@@ -87,6 +89,7 @@ const Booking = () => {
         handleSubmit={handleUpdate}
       />
     </div>
+    </>
   );
 };
 
